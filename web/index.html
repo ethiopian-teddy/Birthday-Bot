@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Birthday Countdown</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div class="hearts" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Long-distance birthday countdown</p>
+          <h1 id="title">For My Love</h1>
+          <p id="subtitle">Every second is bringing me closer to celebrating you.</p>
+        </div>
+        <div class="countdown" aria-label="Live birthday countdown">
+          <div><strong id="days">0</strong><span>Days</span></div>
+          <div><strong id="hours">0</strong><span>Hours</span></div>
+          <div><strong id="minutes">0</strong><span>Minutes</span></div>
+          <div><strong id="seconds">0</strong><span>Seconds</span></div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="section-heading">
+          <p class="eyebrow">Little love notes</p>
+          <h2>Open when...</h2>
+        </div>
+        <div id="notes" class="notes"></div>
+      </section>
+
+      <section class="band gallery-band">
+        <div class="section-heading">
+          <p class="eyebrow">Tiny gallery</p>
+          <h2>Pieces of us</h2>
+        </div>
+        <div id="gallery" class="gallery"></div>
+      </section>
+
+      <section class="band music">
+        <div class="section-heading">
+          <p class="eyebrow">Soundtrack</p>
+          <h2>A song for the distance</h2>
+        </div>
+        <a id="musicLink" class="music-link" href="#" target="_blank" rel="noreferrer">Play the song</a>
+      </section>
+    </main>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
